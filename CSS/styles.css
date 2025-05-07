@@ -1,0 +1,119 @@
+:root{
+    --fuenteprincipal:"Figtree", sans-serif;
+
+    --color-blanco: #FFFF; 
+    --color-fondo: #F4D04E;
+    --color-grisoscuro: #111111;
+    --color-gris: #6b6b6b;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *::after {
+    box-sizing: inherit; 
+}
+
+body {
+    font-family: var(--fuenteprincipal); 
+    line-height: 1.5;
+    letter-spacing: 0;
+    background-color: var(--color-fondo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    gap: 2rem; 
+
+}
+
+p{
+    font-size: 14px;
+}
+/* GLOBALES */
+
+.u-rellenarimagen {
+    width: 100%;
+    height: 100%;
+}
+
+/* SOMBRA */
+
+
+/* TARJETA */
+
+.tarjeta-curso{
+    background-color: var(--color-blanco);
+    max-width: 38.4rem;
+    height: 52.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+}
+
+.tarjeta-curso__imagen {
+    padding-top: 1.5rem;
+    width: 90%;
+}
+
+.tarjeta-curso__imagen img {
+    border-radius: 1rem;
+}
+
+.categoria {
+    background-color: var(--color-fondo);
+    width: 8.2rem;
+    height: 2.9rem;
+    border-radius: 0.4rem;
+}
+
+.categoria__texto {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+
+
+.tarjeta-curso__contenido {
+    width: 90%;
+
+}
+.enlace {
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--color-grisoscuro);
+}
+
+.enlace:hover {
+    color: var(--color-fondo)
+}
+.tarjeta-curso__descripcion {
+    font-size: 16px;
+    color: var(--color-gris)
+}
+.tarjeta-curso__persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    gap: 1rem;
+}
+.tarjeta-curso__persona img {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.tarjeta-curso__persona p{
+    font-weight: bold;
+}
+/* FOOTER */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
