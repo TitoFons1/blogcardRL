@@ -54,6 +54,7 @@ p{
     align-items: center;
     border-radius: 2rem;
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+    border: 1px solid black;
 }
 
 .tarjeta-curso__imagen {
