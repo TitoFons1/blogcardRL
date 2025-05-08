@@ -1,7 +1,7 @@
 :root{
     --fuenteprincipal:"Figtree", sans-serif;
 
-    --color-blanco: #FFFF; 
+    --color-blanco: #FFFFFF; 
     --color-fondo: #F4D04E;
     --color-grisoscuro: #111111;
     --color-gris: #6b6b6b;
@@ -65,14 +65,14 @@ p{
     border-radius: 1rem;
 }
 
-.categoria {
+.tarjeta-curso__categoria {
     background-color: var(--color-fondo);
     width: 8.2rem;
     height: 2.9rem;
     border-radius: 0.4rem;
 }
 
-.categoria__texto {
+.tarjeta-curso__categoria-texto {
     font-weight: bold;
     font-size: 14px;
     text-align: center;
@@ -84,7 +84,7 @@ p{
     width: 90%;
 
 }
-.enlace {
+.tarjeta-curso__enlace {
     text-decoration: none;
     line-height: 1.5;
     font-size: 24px;
@@ -92,7 +92,7 @@ p{
     color: var(--color-grisoscuro);
 }
 
-.enlace:hover {
+.tarjeta-curso__enlace:hover {
     color: var(--color-fondo)
 }
 .tarjeta-curso__descripcion {
